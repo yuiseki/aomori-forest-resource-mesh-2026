@@ -51,7 +51,10 @@ def main() -> int:
     total = 0
     for p in sorted((run / "gpkg").glob("fr_mesh20m_*_2025.gpkg")):
         sheet = rfm.sheet_of(p)
-        df = pyogrio.read_dataframe(p, fid_as_index=True, use_arrow=True)
+        mesh_layer = [str(x[0]) for x in pyogrio.list_layers(p) if x[1] is not None][
+            0
+        ]  # the file also holds layer_styles
+        df = pyogrio.read_dataframe(p, layer=mesh_layer, fid_as_index=True, use_arrow=True)
         crs = df.crs.to_epsg() if df.crs else None
         assert crs == P.crs, (p.name, crs)
         b = shapely.bounds(df.geometry.values)

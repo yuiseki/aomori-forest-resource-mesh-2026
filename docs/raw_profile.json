@@ -1,0 +1,791 @@
+{
+ "sheets": 63,
+ "rows": 29837059,
+ "invalid_geometry": 0,
+ "geometry_type_ids": {
+  "6": 29837059
+ },
+ "layers": [
+  "fr_mesh20m_10ED4_2025",
+  "fr_mesh20m_10EE1_2025",
+  "fr_mesh20m_10EE3_2025",
+  "fr_mesh20m_10EE4_2025",
+  "fr_mesh20m_10EF3_2025",
+  "fr_mesh20m_10FC2_2025",
+  "fr_mesh20m_10FC4_2025",
+  "fr_mesh20m_10FD1_2025",
+  "fr_mesh20m_10FD2_2025",
+  "fr_mesh20m_10FD3_2025",
+  "fr_mesh20m_10FD4_2025",
+  "fr_mesh20m_10FE1_2025",
+  "fr_mesh20m_10FE2_2025",
+  "fr_mesh20m_10FE3_2025",
+  "fr_mesh20m_10FE4_2025",
+  "fr_mesh20m_10FF1_2025",
+  "fr_mesh20m_10FF3_2025",
+  "fr_mesh20m_10GC2_2025",
+  "fr_mesh20m_10GC4_2025",
+  "fr_mesh20m_10GD1_2025",
+  "fr_mesh20m_10GD2_2025",
+  "fr_mesh20m_10GD3_2025",
+  "fr_mesh20m_10GD4_2025",
+  "fr_mesh20m_10GE1_2025",
+  "fr_mesh20m_10GE2_2025",
+  "fr_mesh20m_10GE3_2025",
+  "fr_mesh20m_10GE4_2025",
+  "fr_mesh20m_10GF1_2025",
+  "fr_mesh20m_10GF3_2025",
+  "fr_mesh20m_10HB3_2025",
+  "fr_mesh20m_10HB4_2025",
+  "fr_mesh20m_10HC1_2025",
+  "fr_mesh20m_10HC2_2025",
+  "fr_mesh20m_10HC3_2025",
+  "fr_mesh20m_10HC4_2025",
+  "fr_mesh20m_10HD1_2025",
+  "fr_mesh20m_10HD2_2025",
+  "fr_mesh20m_10HD3_2025",
+  "fr_mesh20m_10HD4_2025",
+  "fr_mesh20m_10HE1_2025",
+  "fr_mesh20m_10HE2_2025",
+  "fr_mesh20m_10HE3_2025",
+  "fr_mesh20m_10HE4_2025",
+  "fr_mesh20m_10HF1_2025",
+  "fr_mesh20m_10HF3_2025",
+  "fr_mesh20m_10HF4_2025",
+  "fr_mesh20m_10IB1_2025",
+  "fr_mesh20m_10IC1_2025",
+  "fr_mesh20m_10IC2_2025",
+  "fr_mesh20m_10ID1_2025",
+  "fr_mesh20m_10ID2_2025",
+  "fr_mesh20m_10ID3_2025",
+  "fr_mesh20m_10ID4_2025",
+  "fr_mesh20m_10IE1_2025",
+  "fr_mesh20m_10IE2_2025",
+  "fr_mesh20m_10IE3_2025",
+  "fr_mesh20m_10IE4_2025",
+  "fr_mesh20m_10IF1_2025",
+  "fr_mesh20m_10IF2_2025",
+  "fr_mesh20m_10IF3_2025",
+  "fr_mesh20m_10IF4_2025",
+  "fr_mesh20m_10JE1_2025",
+  "fr_mesh20m_10JE2_2025"
+ ],
+ "crs": [
+  "EPSG:6678"
+ ],
+ "field_sets": [
+  [
+   "林種",
+   "森林簿樹種1",
+   "森林簿樹種2",
+   "森林簿樹種3",
+   "林齢",
+   "森林簿年月日",
+   "樹冠高",
+   "レーザ解析樹種",
+   "立木密度",
+   "平均標高",
+   "計測年月日"
+  ]
+ ],
+ "bbox_plane_xy": [
+  -113180.0,
+  15000.0,
+  80000.0,
+  172800.0
+ ],
+ "nulls": {
+  "林種": 8368077,
+  "森林簿樹種1": 8363528,
+  "森林簿樹種2": 19918377,
+  "森林簿樹種3": 25829732,
+  "林齢": 8368077,
+  "森林簿年月日": 8363423,
+  "樹冠高": 29837059,
+  "レーザ解析樹種": 29837059,
+  "立木密度": 29837059,
+  "平均標高": 29837059,
+  "計測年月日": 29837059
+ },
+ "per_sheet": {
+  "fr_mesh20m_10ED4_2025.gpkg": {
+   "rows": 7888,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10ED4_2025"
+  },
+  "fr_mesh20m_10EE1_2025.gpkg": {
+   "rows": 69309,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10EE1_2025"
+  },
+  "fr_mesh20m_10EE3_2025.gpkg": {
+   "rows": 681043,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10EE3_2025"
+  },
+  "fr_mesh20m_10EE4_2025.gpkg": {
+   "rows": 279309,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10EE4_2025"
+  },
+  "fr_mesh20m_10EF3_2025.gpkg": {
+   "rows": 99447,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10EF3_2025"
+  },
+  "fr_mesh20m_10FC2_2025.gpkg": {
+   "rows": 21073,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10FC2_2025"
+  },
+  "fr_mesh20m_10FC4_2025.gpkg": {
+   "rows": 135699,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10FC4_2025"
+  },
+  "fr_mesh20m_10FD1_2025.gpkg": {
+   "rows": 42007,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10FD1_2025"
+  },
+  "fr_mesh20m_10FD2_2025.gpkg": {
+   "rows": 118517,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10FD2_2025"
+  },
+  "fr_mesh20m_10FD3_2025.gpkg": {
+   "rows": 694440,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10FD3_2025"
+  },
+  "fr_mesh20m_10FD4_2025.gpkg": {
+   "rows": 237875,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10FD4_2025"
+  },
+  "fr_mesh20m_10FE1_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10FE1_2025"
+  },
+  "fr_mesh20m_10FE2_2025.gpkg": {
+   "rows": 628819,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10FE2_2025"
+  },
+  "fr_mesh20m_10FE3_2025.gpkg": {
+   "rows": 202535,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10FE3_2025"
+  },
+  "fr_mesh20m_10FE4_2025.gpkg": {
+   "rows": 154495,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10FE4_2025"
+  },
+  "fr_mesh20m_10FF1_2025.gpkg": {
+   "rows": 340174,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10FF1_2025"
+  },
+  "fr_mesh20m_10FF3_2025.gpkg": {
+   "rows": 263785,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10FF3_2025"
+  },
+  "fr_mesh20m_10GC2_2025.gpkg": {
+   "rows": 122348,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10GC2_2025"
+  },
+  "fr_mesh20m_10GC4_2025.gpkg": {
+   "rows": 226150,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10GC4_2025"
+  },
+  "fr_mesh20m_10GD1_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10GD1_2025"
+  },
+  "fr_mesh20m_10GD2_2025.gpkg": {
+   "rows": 170636,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10GD2_2025"
+  },
+  "fr_mesh20m_10GD3_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10GD3_2025"
+  },
+  "fr_mesh20m_10GD4_2025.gpkg": {
+   "rows": 371804,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10GD4_2025"
+  },
+  "fr_mesh20m_10GE1_2025.gpkg": {
+   "rows": 129418,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10GE1_2025"
+  },
+  "fr_mesh20m_10GE2_2025.gpkg": {
+   "rows": 243104,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10GE2_2025"
+  },
+  "fr_mesh20m_10GE3_2025.gpkg": {
+   "rows": 654401,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10GE3_2025"
+  },
+  "fr_mesh20m_10GE4_2025.gpkg": {
+   "rows": 576608,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10GE4_2025"
+  },
+  "fr_mesh20m_10GF1_2025.gpkg": {
+   "rows": 246473,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10GF1_2025"
+  },
+  "fr_mesh20m_10GF3_2025.gpkg": {
+   "rows": 273401,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10GF3_2025"
+  },
+  "fr_mesh20m_10HB3_2025.gpkg": {
+   "rows": 3,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HB3_2025"
+  },
+  "fr_mesh20m_10HB4_2025.gpkg": {
+   "rows": 23255,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HB4_2025"
+  },
+  "fr_mesh20m_10HC1_2025.gpkg": {
+   "rows": 270561,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HC1_2025"
+  },
+  "fr_mesh20m_10HC2_2025.gpkg": {
+   "rows": 639320,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HC2_2025"
+  },
+  "fr_mesh20m_10HC3_2025.gpkg": {
+   "rows": 664952,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HC3_2025"
+  },
+  "fr_mesh20m_10HC4_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HC4_2025"
+  },
+  "fr_mesh20m_10HD1_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HD1_2025"
+  },
+  "fr_mesh20m_10HD2_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HD2_2025"
+  },
+  "fr_mesh20m_10HD3_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HD3_2025"
+  },
+  "fr_mesh20m_10HD4_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HD4_2025"
+  },
+  "fr_mesh20m_10HE1_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HE1_2025"
+  },
+  "fr_mesh20m_10HE2_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HE2_2025"
+  },
+  "fr_mesh20m_10HE3_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HE3_2025"
+  },
+  "fr_mesh20m_10HE4_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HE4_2025"
+  },
+  "fr_mesh20m_10HF1_2025.gpkg": {
+   "rows": 352356,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HF1_2025"
+  },
+  "fr_mesh20m_10HF3_2025.gpkg": {
+   "rows": 511260,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HF3_2025"
+  },
+  "fr_mesh20m_10HF4_2025.gpkg": {
+   "rows": 1869,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10HF4_2025"
+  },
+  "fr_mesh20m_10IB1_2025.gpkg": {
+   "rows": 0,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10IB1_2025"
+  },
+  "fr_mesh20m_10IC1_2025.gpkg": {
+   "rows": 571289,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10IC1_2025"
+  },
+  "fr_mesh20m_10IC2_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10IC2_2025"
+  },
+  "fr_mesh20m_10ID1_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10ID1_2025"
+  },
+  "fr_mesh20m_10ID2_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10ID2_2025"
+  },
+  "fr_mesh20m_10ID3_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10ID3_2025"
+  },
+  "fr_mesh20m_10ID4_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10ID4_2025"
+  },
+  "fr_mesh20m_10IE1_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10IE1_2025"
+  },
+  "fr_mesh20m_10IE2_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10IE2_2025"
+  },
+  "fr_mesh20m_10IE3_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10IE3_2025"
+  },
+  "fr_mesh20m_10IE4_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10IE4_2025"
+  },
+  "fr_mesh20m_10IF1_2025.gpkg": {
+   "rows": 746091,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10IF1_2025"
+  },
+  "fr_mesh20m_10IF2_2025.gpkg": {
+   "rows": 357350,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10IF2_2025"
+  },
+  "fr_mesh20m_10IF3_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10IF3_2025"
+  },
+  "fr_mesh20m_10IF4_2025.gpkg": {
+   "rows": 707995,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10IF4_2025"
+  },
+  "fr_mesh20m_10JE1_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10JE1_2025"
+  },
+  "fr_mesh20m_10JE2_2025.gpkg": {
+   "rows": 750000,
+   "invalid": 0,
+   "fid_unique": true,
+   "layer": "fr_mesh20m_10JE2_2025"
+  }
+ },
+ "value_counts": {
+  "林種": {
+   "天然林": 11436207,
+   "人工林": 9248495,
+   "<NULL>": 8368077,
+   "その他": 395577,
+   "伐採跡地": 301628,
+   "未立木地": 87075
+  },
+  "森林簿樹種1": {
+   "広葉樹": 9101684,
+   "<NULL>": 8363528,
+   "スギ": 6876879,
+   "マツ類": 2038510,
+   "ヒバ": 1648307,
+   "カラマツ": 854039,
+   "その他": 468248,
+   "伐採跡地": 289269,
+   "その他針葉樹": 175489,
+   "#N/A": 15597,
+   "ヒノキ類": 5437,
+   "エゾマツ": 72
+  },
+  "森林簿樹種2": {
+   "<NULL>": 19918377,
+   "広葉樹": 7647008,
+   "マツ類": 682636,
+   "ヒバ": 613058,
+   "スギ": 559852,
+   "カラマツ": 387927,
+   "その他針葉樹": 24652,
+   "ヒノキ類": 3481,
+   "エゾマツ": 68
+  },
+  "森林簿樹種3": {
+   "<NULL>": 25829732,
+   "広葉樹": 3016172,
+   "ヒバ": 488812,
+   "マツ類": 203510,
+   "スギ": 169917,
+   "その他針葉樹": 66073,
+   "カラマツ": 60868,
+   "ヒノキ類": 1975
+  },
+  "レーザ解析樹種": {
+   "<NULL>": 29837059
+  },
+  "森林簿年月日": {
+   "<NULL>": 8363423,
+   "2023/4/1": 7647015,
+   "2022/4/1": 4049455,
+   "2024/4/1": 2702377,
+   "2019/4/1": 2511709,
+   "2020/4/1": 2023405,
+   "2021/4/1": 1728650,
+   "2024/3/31": 811025
+  }
+ },
+ "age_counts": {
+  "-1": 8368077,
+  "0": 768092,
+  "1": 21790,
+  "2": 18925,
+  "3": 18266,
+  "4": 22169,
+  "5": 26110,
+  "6": 36073,
+  "7": 72577,
+  "8": 32327,
+  "9": 59744,
+  "10": 49880,
+  "11": 59034,
+  "12": 86808,
+  "13": 23384,
+  "14": 40063,
+  "15": 16670,
+  "16": 29702,
+  "17": 40707,
+  "18": 20144,
+  "19": 42448,
+  "20": 25308,
+  "21": 54975,
+  "22": 52468,
+  "23": 56434,
+  "24": 69153,
+  "25": 41399,
+  "26": 66233,
+  "27": 85768,
+  "28": 65760,
+  "29": 80014,
+  "30": 70955,
+  "31": 116060,
+  "32": 109679,
+  "33": 106949,
+  "34": 116300,
+  "35": 130826,
+  "36": 162143,
+  "37": 179869,
+  "38": 171339,
+  "39": 167012,
+  "40": 195112,
+  "41": 208829,
+  "42": 207207,
+  "43": 216314,
+  "44": 212239,
+  "45": 234137,
+  "46": 264218,
+  "47": 273925,
+  "48": 305239,
+  "49": 292947,
+  "50": 363670,
+  "51": 376366,
+  "52": 341728,
+  "53": 365902,
+  "54": 323743,
+  "55": 377201,
+  "56": 400693,
+  "57": 304512,
+  "58": 389587,
+  "59": 290521,
+  "60": 428181,
+  "61": 404880,
+  "62": 313949,
+  "63": 350549,
+  "64": 230383,
+  "65": 377283,
+  "66": 343150,
+  "67": 263032,
+  "68": 303997,
+  "69": 195239,
+  "70": 343646,
+  "71": 323606,
+  "72": 197264,
+  "73": 139912,
+  "74": 122597,
+  "75": 195563,
+  "76": 181689,
+  "77": 106253,
+  "78": 66368,
+  "79": 85761,
+  "80": 114881,
+  "81": 105744,
+  "82": 55334,
+  "83": 42034,
+  "84": 67468,
+  "85": 85428,
+  "86": 61850,
+  "87": 36558,
+  "88": 34094,
+  "89": 70537,
+  "90": 58888,
+  "91": 40436,
+  "92": 35183,
+  "93": 19629,
+  "94": 73264,
+  "95": 55548,
+  "96": 28296,
+  "97": 24727,
+  "98": 34157,
+  "99": 82639,
+  "100": 66617,
+  "101": 28110,
+  "102": 27548,
+  "103": 34905,
+  "104": 77512,
+  "105": 67994,
+  "106": 25825,
+  "107": 23632,
+  "108": 25493,
+  "109": 92229,
+  "110": 68213,
+  "111": 20113,
+  "112": 15368,
+  "113": 25081,
+  "114": 84196,
+  "115": 51339,
+  "116": 6045,
+  "117": 6646,
+  "118": 5150,
+  "119": 85050,
+  "120": 102788,
+  "121": 7374,
+  "122": 10482,
+  "123": 12592,
+  "124": 109803,
+  "125": 90390,
+  "126": 14237,
+  "127": 6951,
+  "128": 7407,
+  "129": 92096,
+  "130": 125300,
+  "131": 13891,
+  "132": 4630,
+  "133": 19431,
+  "134": 128827,
+  "135": 112658,
+  "136": 10812,
+  "137": 11244,
+  "138": 11722,
+  "139": 90208,
+  "140": 133155,
+  "141": 9421,
+  "142": 10571,
+  "143": 16182,
+  "144": 180673,
+  "145": 111600,
+  "146": 6213,
+  "147": 7509,
+  "148": 16475,
+  "149": 174886,
+  "150": 165029,
+  "151": 8749,
+  "152": 10045,
+  "153": 26135,
+  "154": 162157,
+  "155": 99584,
+  "156": 3895,
+  "157": 5643,
+  "158": 7691,
+  "159": 135545,
+  "160": 210608,
+  "161": 6013,
+  "162": 4828,
+  "163": 23728,
+  "164": 122791,
+  "165": 110743,
+  "166": 1048,
+  "167": 4087,
+  "168": 8274,
+  "169": 166459,
+  "170": 124628,
+  "171": 1191,
+  "172": 3309,
+  "173": 15031,
+  "174": 207963,
+  "175": 129789,
+  "176": 3160,
+  "177": 1907,
+  "178": 1991,
+  "179": 107976,
+  "180": 129342,
+  "181": 3164,
+  "182": 1875,
+  "183": 20333,
+  "184": 210013,
+  "185": 65219,
+  "186": 2541,
+  "187": 910,
+  "188": 6151,
+  "189": 56794,
+  "190": 106079,
+  "192": 1156,
+  "193": 3187,
+  "194": 147259,
+  "195": 39795,
+  "196": 83,
+  "197": 2253,
+  "198": 7081,
+  "199": 224163,
+  "200": 103635,
+  "201": 439,
+  "204": 204680,
+  "205": 48800,
+  "209": 19082,
+  "210": 29038,
+  "211": 3594,
+  "212": 87,
+  "214": 3352,
+  "215": 12642,
+  "216": 1721,
+  "219": 9330,
+  "220": 7382,
+  "221": 1055,
+  "222": 1389,
+  "224": 68906,
+  "225": 64183,
+  "226": 408,
+  "228": 70,
+  "229": 31238,
+  "230": 32,
+  "234": 1739,
+  "235": 583,
+  "239": 1035,
+  "240": 678,
+  "243": 75,
+  "244": 378,
+  "245": 505,
+  "247": 7,
+  "254": 844,
+  "258": 10,
+  "273": 7,
+  "281": 16,
+  "290": 277,
+  "295": 1,
+  "358": 38,
+  "401": 4,
+  "686": 89
+ },
+ "measure_date_counts": {
+  "<NULL>": 29837059
+ }
+}
